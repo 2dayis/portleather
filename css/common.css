@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*nav*/
+.nav {
+    background-color: #232323;
+    margin: 0 0 3px 0;
+}
+.nav ul{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+.nav ul li{
+    margin: 0 40px;
+    line-height: 60px;
+}
+.nav ul li:hover{
+    border-bottom: 10px solid beige;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 1.2vw;
+}
+/*titleimg*/
+.tanning{
+    height: 700px;
+    background-color: #232323;
+    text-align: center;
+    background-image: url('http://cdn.shopify.com/s/files/1/0575/7177/files/Vegetable-Tanned-Leather-aging.jpg?v=1554051937');
+    background-attachment: fixed;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+}
+.tanning div{
+    color: beige;
+    position: relative;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tanning .titlemsg span{
+    margin-bottom: 60px;
+    display: block;
+    font-size: 1.8rem;
+}
+.tanning .titlemsg span:first-child{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+
+.about{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin: 50px 0;
+}
+
+/*content*/
+.content {
+    width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #232323;
+    display: flex;
+    color: beige;
+    text-align: center;
+}
+.content .leftside .column1, .column2{
+    display: flex;
+}
+.content .leftside .column3{
+    line-height: 400px;
+    background-color: #fff;
+    color: #232323;
+    font-size: 1.1vw;
+}
+.content .leftside .column2right{
+    width: 300px;
+    line-height: 400px;
+    background-color: #fff;
+    color: #232323;
+    font-size: 1.5vw;
+}
+.content .contentmsg{
+    line-height: 400px;
+    width: 300px;
+    font-size: 1.5vw;
+}
+.content .contentmsg1{
+    line-height: 200px;
+    width: 300px;
+    font-size: 1.2vw;
+}
+.content .rightside .column2right .column2rightmsg{
+    height: 400px;
+    line-height: 400px;
+    font-size: 1.6vw;
+}
+
+.column1 article, .column2left, .column2right, .column3{
+    overflow: hidden;
+}
+
+.column1:hover img, .column2left:hover img, .column2right:hover img, .column3:hover img{
+    transform: scale(1.05);
+}
+.column1:hover, .column2left:hover, .column2right:hover, .column3:hover{
+    opacity: 0.6;
+}
+a{text-decoration: none; color: beige}
+
+/*contact*/
+.contact{
+    margin: 20px 0;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.contact p{
+    line-height: 85px;
+    font-size: 2rem;
+}
+.contact p:first-child{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/*footer*/
+footer{
+    background-color: #232323;
+    color: beige;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
