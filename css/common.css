@@ -141,7 +141,7 @@ table {
     font-size: 1.6vw;
 }
 
-.column1 article, .column2left, .column2right, .column3{
+.column1, .column2left, .column2right, .column3{
     overflow: hidden;
 }
 
